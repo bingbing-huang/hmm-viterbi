@@ -1,6 +1,5 @@
 from Bio import SeqIO
 import re
-import pprint
 
 
 def load_sequence():
@@ -82,7 +81,6 @@ def print_hits(hit_indices):
 
 
 def print_hits_details(number_of_hits_to_print, length_hits, hit_indices):
-    print("Here is detail information for the hits: ")
     sorted_hit_indices = sorted(hit_indices, key=lambda x: x[0])
     for hit_start, hit_end in sorted_hit_indices:
         if number_of_hits_to_print == 0:
@@ -91,6 +89,15 @@ def print_hits_details(number_of_hits_to_print, length_hits, hit_indices):
         if length >= length_hits:
             print("Start: %d, End: %d, Length: %d" % (hit_start + 1, hit_end + 1, length))
             number_of_hits_to_print -= 1
+
+
+def print_language_bake_off(process_times, hit_indices):
+    print("Here is the language bake-off:")
+    print("\nPython 3.6.2")
+    print("\nThe total CPU time taken by the algorithm for the first 9 Viterbi iterations: %fs" % sum(process_times[:len(process_times) - 1]))
+    print("\nThe basic info about the computer: 2.4 GHz Intel Core i7, 8 GB RAM")
+    print("\nThe first 10 hits of length >= 50 from the final iteration:")
+    print_hits_details(10, 50, hit_indices)
 
 
 def main():

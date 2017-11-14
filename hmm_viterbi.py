@@ -1,4 +1,3 @@
-from utility import *
 import numpy as np
 
 
@@ -124,46 +123,7 @@ def update_transitions(transitions, n_count, hit_indices):
 
 
 def main():
-    seq = load_sequence()
-    emissions = get_emissions()
-    transitions = get_transitions()
-    iteration_times = 10
-    """
-        state 1 (row 0): ...
-        state 2 (row 1: ...
-    """
-    for i in range(iteration_times):
-        probability_matrix = np.empty((2, len(seq)), dtype='float64')
-        n_count = calculate_probabilities(seq, emissions, transitions, probability_matrix)
-        viterbi_path = np.empty(len(seq), dtype='int')
-        perform_traceback(probability_matrix, seq, emissions, transitions, viterbi_path)
-        hit_indices = find_hits(viterbi_path)
-
-        print("Iteration %d:" % (i + 1))
-        print()
-
-        update_emissions(emissions, seq, n_count, hit_indices)
-        print_emission(emissions)
-        print()
-
-        update_transitions(transitions, n_count, hit_indices)
-        print_transitions(transitions)
-        print()
-
-        print_log_probability_viterbi(probability_matrix)
-        print()
-
-        print_hits(hit_indices)
-        print()
-
-        if i == 9:
-            print_hits_details(len(hit_indices), 0, hit_indices)
-        else:
-            print_hits_details(5, 0, hit_indices)
-
-        print()
-        print("***********************************************************")
-        print()
+    exit(0)
 
 
 if __name__ == '__main__':
