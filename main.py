@@ -28,11 +28,9 @@ def main():
         print("Iteration %d:" % (i + 1))
         print()
 
-        update_emissions(emissions, seq, n_count, hit_indices)
         print_emission(emissions)
         print()
 
-        update_transitions(transitions, n_count, hit_indices)
         print_transitions(transitions)
         print()
 
@@ -51,6 +49,8 @@ def main():
         print()
         print("***********************************************************")
         print()
+        update_emissions(emissions, seq, n_count, hit_indices)
+        update_transitions(transitions, n_count, hit_indices)
 
     print_language_bake_off(process_times, hit_indices)
 
