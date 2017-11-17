@@ -1,0 +1,307 @@
+Iteration 1:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.25  0.25  0.25  0.25
+State 2       0.20  0.30  0.30  0.20
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999000    0.0001000
+State 2          0.0100000    0.9900000
+
+The log probability of the overall Viterbi path: -2308117.250520
+
+The total number of hits found: 2
+
+Here is detail information for the hits: 
+Start: 154651, End: 159579, Length: 4929
+Start: 638464, End: 643447, Length: 4984
+
+***********************************************************
+
+Iteration 2:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.19  0.31  0.31  0.18
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999988    0.0000012
+State 2          0.0002018    0.9997982
+
+The log probability of the overall Viterbi path: -2188058.068283
+
+The total number of hits found: 23
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 138345, End: 138419, Length: 75
+Start: 154610, End: 159591, Length: 4982
+
+***********************************************************
+
+Iteration 3:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.19  0.31  0.31  0.19
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999861    0.0000139
+State 2          0.0016358    0.9983642
+
+The log probability of the overall Viterbi path: -2187966.087873
+
+The total number of hits found: 34
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+
+***********************************************************
+
+Iteration 4:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.18  0.31  0.32  0.18
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999794    0.0000206
+State 2          0.0023297    0.9976703
+
+The log probability of the overall Viterbi path: -2187960.611089
+
+The total number of hits found: 35
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+
+***********************************************************
+
+Iteration 5:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.19  0.31  0.32  0.18
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999788    0.0000212
+State 2          0.0023850    0.9976150
+
+The log probability of the overall Viterbi path: -2187960.573566
+
+The total number of hits found: 36
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+
+***********************************************************
+
+Iteration 6:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.18  0.31  0.32  0.18
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999782    0.0000218
+State 2          0.0024488    0.9975512
+
+The log probability of the overall Viterbi path: -2187960.506845
+
+The total number of hits found: 36
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+
+***********************************************************
+
+Iteration 7:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.18  0.31  0.32  0.18
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999782    0.0000218
+State 2          0.0024488    0.9975512
+
+The log probability of the overall Viterbi path: -2187960.506845
+
+The total number of hits found: 36
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+
+***********************************************************
+
+Iteration 8:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.18  0.31  0.32  0.18
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999782    0.0000218
+State 2          0.0024488    0.9975512
+
+The log probability of the overall Viterbi path: -2187960.506845
+
+The total number of hits found: 36
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+
+***********************************************************
+
+Iteration 9:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.18  0.31  0.32  0.18
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999782    0.0000218
+State 2          0.0024488    0.9975512
+
+The log probability of the overall Viterbi path: -2187960.506845
+
+The total number of hits found: 36
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+
+***********************************************************
+
+Iteration 10:
+
+The HMM emission parameters:
+Emissions     A     C     G     T    
+State 1       0.35  0.15  0.16  0.34
+State 2       0.18  0.31  0.32  0.18
+
+The HMM transitions parameters:
+Transitions      State 1      State 2    
+Begin            0.9999000    0.0001000
+State 1          0.9999782    0.0000218
+State 2          0.0024488    0.9975512
+
+The log probability of the overall Viterbi path: -2187960.506845
+
+The total number of hits found: 36
+
+Here is detail information for the hits: 
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+Start: 154610, End: 157697, Length: 3088
+Start: 157782, End: 159591, Length: 1810
+Start: 186974, End: 187067, Length: 94
+Start: 190831, End: 190907, Length: 77
+Start: 215200, End: 215296, Length: 97
+Start: 227705, End: 227782, Length: 78
+Start: 291972, End: 291997, Length: 26
+Start: 303990, End: 304080, Length: 91
+Start: 358766, End: 358942, Length: 177
+Start: 359974, End: 360046, Length: 73
+Start: 402969, End: 403057, Length: 89
+Start: 412582, End: 412635, Length: 54
+Start: 552537, End: 552862, Length: 326
+Start: 619161, End: 619236, Length: 76
+Start: 637579, End: 638153, Length: 575
+Start: 638334, End: 640132, Length: 1799
+Start: 640217, End: 643449, Length: 3233
+Start: 643500, End: 643767, Length: 268
+Start: 763767, End: 763845, Length: 79
+Start: 764022, End: 764095, Length: 74
+Start: 774708, End: 774788, Length: 81
+Start: 863476, End: 864151, Length: 676
+Start: 873579, End: 873778, Length: 200
+Start: 883675, End: 883755, Length: 81
+Start: 951852, End: 951968, Length: 117
+Start: 1038544, End: 1038622, Length: 79
+Start: 1129124, End: 1129194, Length: 71
+Start: 1150142, End: 1150402, Length: 261
+Start: 1189943, End: 1190054, Length: 112
+Start: 1313165, End: 1313251, Length: 87
+Start: 1659451, End: 1659520, Length: 70
+
+***********************************************************
+
+Here is the language bake-off:
+
+Python 3.6.2
+
+The total CPU time taken by the algorithm for the first 9 Viterbi iterations: 368.999765s
+
+The basic info about the computer: 2.4 GHz Intel Core i7, 8 GB RAM
+
+The first 10 hits of length >= 50 from the final iteration:
+Start: 97326, End: 97541, Length: 216
+Start: 97627, End: 97823, Length: 197
+Start: 111764, End: 111856, Length: 93
+Start: 118079, End: 118179, Length: 101
+Start: 138345, End: 138419, Length: 75
+Start: 154610, End: 157697, Length: 3088
+Start: 157782, End: 159591, Length: 1810
+Start: 186974, End: 187067, Length: 94
+Start: 190831, End: 190907, Length: 77
+Start: 215200, End: 215296, Length: 97
